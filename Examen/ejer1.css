@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu_nav{
+    background-color: red;
+    height: 50px;
+}
+.slider_container{
+    display: grid;
+    background-color: rgb(47, 202, 151);
+    height: 50px;
+}
+.section_text_mosaic{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    gap: 20px;
+}
+.text_content{
+    background-color: rgb(136, 136, 235);
+    height: 150px;
+    padding: 20px;
+}
+.mosaic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    background-color: chocolate;
+    height: 150px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.card{
+    padding: 20px;
+    background-color: yellow;
+    text-align: center;
+    border: 1px solid white;
+    height: 50px;
+}
+.section_contact_photo{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px 20px;
+}
+.contact_form {
+    background-color: green;
+    height: 180px;
+}
+.photo {
+    display: grid;
+    background-color: crimson;
+    height: 180px;    
+}
+.section_footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 70px;
+}
+.contenido{
+    background-color: blueviolet;
+}
+.social_media{
+    background-color: rgb(240, 182, 22);
+}
+.logo{
+    background-color: blue;
+}
+.caja1{
+    background-color: antiquewhite;
+}
